@@ -88,7 +88,7 @@ def toJsonArray(events):
 
 def ready():
     """
-    Récupère les données et les places dans un array : [{name,[begin],[description]}]
+    Récupère les données et les places dans une arrayliste : [{name,[begin],[description]}]
     """
 
     # On récupère le fichier du site de l'AN
