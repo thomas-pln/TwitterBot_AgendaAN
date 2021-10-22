@@ -124,8 +124,6 @@ def readAgenda(file):
     DTSTART : YYYYMMDDThhmmssZ
     [DTSTART][SUMMARY][DESCRIPTION]
     """
-
-
     try:
         c = open(file,'r', encoding='UTF-8')
         #print(c.read())
