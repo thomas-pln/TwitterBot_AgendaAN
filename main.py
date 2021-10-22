@@ -1,39 +1,43 @@
 from getAgendaAN import ready
-from timeDate import todayFR, today, sleep
+from time import sleep
+from timeDate import todayFR, today, sleep, datetime
 from basicTwitterFunctions import postStatus, postStatusMedia
 from image import printTxtImage
 
-#limit : 280 chars
+limit = 280 #chars
+csvFilePath = './data/dossiers.csv'
+jsonFilePath = './data/doss.json'
+
 
 def main():
     day = today()
     dayFR = todayFR()
 
-    Diary = ready()
+    agenda = ready()
     
-    printTxtImage() #Creates image
-    tweet_id = postStatusMedia(dayFR, None, "./data/txtImages/"+day+".png") #First tweet of the thread
+    printTxtImage() #Créer l'image
+    postStatusMedia(dayFR, None, "./data/txtImages/"+day+".png") #Premier tweet de la journée
 
-    for event in Diary:
 
-        toPost = "\n ▶"+event['name']
+
+    for event in agenda:
+
+        now = datetime.now()
+        diff = event['begin'] - now
+        diff = diff.total_seconds() - 600   
+        #600s = 10min, tweeter 10 minutes avant l'événement (ou s'il est déjà passé)
+        if diff>0:
+            sleep(diff)
+
+
+        toPost = "▶"+event['name']+"\n⏲ "+event['begin'].strftime('%X')+event['description']
         charEmote = 1 #1 emote = 2 chars
-
-        """
-        for date, desc in zip(event['begin'],event['description']):
-            toPost +="\n ⏲ "+date.format('HH:mm')+" :\n\t"+desc
-            charEmote+=1
-        """
-
-        for date in event['begin']:
-            toPost +="\n ⏲ "+date.format('HH:mm')
-            charEmote+=1
 
         print(toPost) #debug
         
         #Division des strings pour faire au plus 280 caractères : 
         if len(toPost) <=280-charEmote:
-            tweet_id = postStatus(toPost, tweet_id)
+            tweet_id = postStatus(toPost, None)
             print("toPost :",len(toPost)) #debug
         else:
             toPostL = toPost
@@ -60,4 +64,5 @@ def main():
                     tweet_id = postStatus(toPostL[:i], tweet_id)
                     toPostL = toPostL[i:]
                 
+
 main()

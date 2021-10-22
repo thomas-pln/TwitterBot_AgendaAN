@@ -1,0 +1,142 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+PRODID:-//Assemblee-Nationale//iCal 3.0//FR
+TZ:+00
+            BEGIN:VEVENT
+    UID:OMC_RUANR5L15A2021IDF0159679
+    DTSTART:20210927T080000Z
+    SUMMARY:Réunion - Mme Constance Le Grip
+    LOCATION:Salle 6549 , Palais Bourbon
+    DESCRIPTION:
+            DTEND:20210927T101500Z
+    TRANSP:TRANSPARENT
+    
+    END:VEVENT
+            BEGIN:VEVENT
+    UID:OMC_RUANR5L15A2021IDF0159729
+    DTSTART:20210927T080000Z
+    SUMMARY:Réunion - Mme Marie-George Buffet
+    LOCATION:1er Bureau , Palais Bourbon
+    DESCRIPTION:
+            DTEND:20210927T093000Z
+    TRANSP:TRANSPARENT
+    
+    END:VEVENT
+            BEGIN:VEVENT
+    UID:OMC_RUANR5L15A2021IDF0160026
+    DTSTART:20210927T080000Z
+    SUMMARY:Réunion - M. André Chassaigne
+    LOCATION:2ème Bureau , Palais Bourdon
+    DESCRIPTION:
+            DTEND:20210927T092500Z
+    TRANSP:TRANSPARENT
+    
+    END:VEVENT
+            BEGIN:VEVENT
+    UID:OMC_RUANR5L15A2021IDF0160146
+    DTSTART:20210927T080000Z
+    SUMMARY:Réunion - Gauche démocrate et républicaine
+    LOCATION:5ème Bureau , Palais Bourbon
+    DESCRIPTION:
+            DTEND:20210927T093000Z
+    TRANSP:TRANSPARENT
+    
+    END:VEVENT
+            BEGIN:VEVENT
+    UID:OMC_RUANR5L15S2021IDC442742
+    DTSTART:20210927T090000Z
+    SUMMARY:Réunion 
+    LOCATION:Salle 4204 – 33 rue Saint Dominique, 2ème étage
+    DESCRIPTION:Audition des représentants de Mercator Institute for China Studies (MERICS), Berlin : Docteur Mikko Johannes Huotari, directeur exécutif, accompagné de Mme Irène Hors, Senior Fellow, M. Jan Ulrich Weidenfeld Gaspers, Head of Policy and Advisory et de M. Bernhard Bartsch, Head of External Relations.
+    
+    TRANSP:TRANSPARENT
+    
+    END:VEVENT
+            BEGIN:VEVENT
+    UID:OMC_RUANR5L15A2021IDF0160020
+    DTSTART:20210927T093000Z
+    SUMMARY:Réunion - M. Alain Bruneel
+    LOCATION:1er Bureau , Palais Bourbon
+    DESCRIPTION:
+            DTEND:20210927T110000Z
+    TRANSP:TRANSPARENT
+    
+    END:VEVENT
+                BEGIN:VEVENT
+    UID:OMC_RUANR5L15A2021IDF0160151
+    DTSTART:20210927T100000Z
+    SUMMARY:Réunion - M. Xavier Paluszkiewicz
+    LOCATION:Salle 7207 , 101, rue de l'Université
+
+    DESCRIPTION:
+
+        DTEND:20210927T140000Z
+    
+    TRANSP:TRANSPARENT
+    
+    END:VEVENT
+
+
+            BEGIN:VEVENT
+    UID:OMC_RUANR5L15A2021IDF0160152
+    DTSTART:20210927T140000Z
+    SUMMARY:Réunion - La France insoumise
+    LOCATION:8ème Bureau , Palais Bourbon
+
+    DESCRIPTION:
+
+        DTEND:20210927T160000Z
+    
+    TRANSP:TRANSPARENT
+    
+    END:VEVENT
+
+
+            BEGIN:VEVENT
+    UID:OMC_RUANR5L15A2021IDF0160156
+    DTSTART:20210927T140000Z
+    SUMMARY:Réunion - M. Jean-Noël Barrot
+    LOCATION:Salle 6822 , Palais Bourbon
+
+    DESCRIPTION:
+
+        DTEND:20210927T150000Z
+    
+    TRANSP:TRANSPARENT
+    
+    END:VEVENT
+
+
+            BEGIN:VEVENT
+    UID:OMC_RUANR5L15A2021IDF0160198
+    DTSTART:20210927T143000Z
+    SUMMARY:Réunion - Mme Anne-Laure Blin
+    LOCATION:Salon Gabriel , 101, rue de l'Université
+
+    DESCRIPTION:
+
+        DTEND:20210927T160000Z
+    
+    TRANSP:TRANSPARENT
+    
+    END:VEVENT
+
+
+            BEGIN:VEVENT
+    UID:OMC_RUANR5L15A2021IDF0160155
+    DTSTART:20210927T150000Z
+    SUMMARY:Réunion - Mme Constance Le Grip
+    LOCATION:Salle 6822 , Palais Bourbon
+
+    DESCRIPTION:
+
+        DTEND:20210927T160000Z
+    
+    TRANSP:TRANSPARENT
+    
+    END:VEVENT
+
+
+    
+END:VCALENDAR
